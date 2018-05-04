@@ -12,7 +12,7 @@ $ npm install --save hangout-chat-tester
 ```js
 const hangoutChatTester = require('hangout-chat-tester');
 
-hangoutChatTester('Rainbow');
+assert(hangoutChatTester(cardObject))
 ```
 ## License
 
