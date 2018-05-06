@@ -1,6 +1,6 @@
 {
   "name": "hangout-chat-tester",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "A testing \"library\" exported as a single function to test locally whether your payload will will render in hangouts chat",
   "homepage": "",
   "author": {
@@ -36,7 +36,7 @@
     "precommit": "lint-staged",
     "test": "npm run test:coverage",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage --collectCoverageFrom=lib/index.js"
   },
   "lint-staged": {
     "*.js": [
