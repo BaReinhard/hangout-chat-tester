@@ -10,12 +10,14 @@ $ npm install --save hangout-chat-tester
 ## Usage
 
 ```js
+// Usage in test files
 const isValid = require('hangout-chat-tester');
 
 assert(isValid(cardObject))
 ```
 
 ```js
+// Usage in source code
 const isValid = require('hangout-chat-tester');
 
 if(isValid(cardObject)){
