@@ -1,6 +1,6 @@
 {
   "name": "hangout-chat-tester",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A testing \"library\" exported as a single function to test locally whether your payload will will render in hangouts chat",
   "homepage": "",
   "author": {

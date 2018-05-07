@@ -10,9 +10,20 @@ $ npm install --save hangout-chat-tester
 ## Usage
 
 ```js
-const hangoutChatTester = require('hangout-chat-tester');
+const isValid = require('hangout-chat-tester');
 
-assert(hangoutChatTester(cardObject))
+assert(isValid(cardObject))
+```
+
+```js
+const isValid = require('hangout-chat-tester');
+
+if(isValid(cardObject)){
+    res.send(cardObject);
+}else{
+    res.send({text:"An error occurred"});
+}
+
 ```
 ## License
 
